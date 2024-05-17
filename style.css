@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+}
+
+.title-container {
+    background-color: #F1DEC9;
+    margin: 0;
+    padding: 50px;
+}
+
+h1 {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 100px;
+    color: #8D7B68;
+}
+
+h3 {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    color: #8D7B68;
+}
+
+.cinzel-uniquifier {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+  .plan-box {
+    background-color: #A4907C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+  }
+
+  .pricing-container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding-bottom: 50px;
+    margin: 0 5%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  .pricing-plan {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: #F1DEC9;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    flex-basis: 250px;
+    flex: 1 0 0;
+  }
+
+  .plan-title {
+    font-weight: bold;
+  }
+
+  .plan-price {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .plan-features {
+    padding: 0;
+  }
+
+  ul > * {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    justify-content: space-around;
+    min-width: 300px;
+    padding: 5px 0;
+  }
+
+  .plan-button {
+    background-color: white;
+    color: #A4907C;
+    border-radius: 10px;
+    border-style: none;
+    height: 2rem;
+    width: 5rem;
+    font-weight: bold;
+  }
+
+  .premium-plan {
+    background-color: #FFB52B;
+    padding: 5px;
+    border-radius: 10px;
+    flex-basis: 250px;
+    flex: 1 0 0;
+  }
+
+  .plan-box {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding-left: 50px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+}
+
+.feature-items {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 350px 350px;
+    list-style: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.item1 {
+    padding: 20%;
+    height: 120px;
+    width: 300px;
+    border: 5px;
+    border-style: solid;
+    border-color: #A4907C;
+}
+
+.item2 {
+    padding: 20%;
+    height: 120px;
+    width: 300px;
+    border: 5px;
+    border-style: solid;
+    border-color: #A4907C;
+}
+
+.item3 {
+    padding: 20%;
+    height: 120px;
+    width: 300px;
+    border: 5px;
+    border-style: solid;
+    border-color: #A4907C;
+}
+
+.event-pictures {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 300px;
+  gap: 50px;
+  padding: 0 50px 50px 50px;
+}
+
+.society-picture {
+    padding-left: 50px;
+}
+
+.footer-container {
+    list-style: none;
+    padding: 50px;
+    color: #8D7B68;
+    background-color: #F1DEC9;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 300px;
+}
+
+h3 {
+    padding: 20px;
+    border: 2px;
+    border-style: solid;
+    border-color: #A4907C;
+}
+
+.blurred {
+    padding-left: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: grey;
+}
+
+.logo {
+  float: right;
+  padding-right: 10%;
+}
+
+@media (max-width: 1250px) {
+
+  .pricing-container {
+    flex-direction: column;
+    height: 100%;
+    margin-top: 20px;
+  }
+
+  .event-pictures {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 20px;
+  }
+
+  .feature-items {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 20px;
+  }
+}
